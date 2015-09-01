@@ -1,0 +1,18 @@
+{
+  "name": "react_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "react": "^0.13.3",
+    "watchify": "^3.3.1",
+    "browserify": "^11.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "watchify -t babel ./src/app.jsx -o .dist/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
